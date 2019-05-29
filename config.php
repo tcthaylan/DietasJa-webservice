@@ -3,14 +3,14 @@ require 'environment.php';
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/psr/psr-4-mvc/");
-	$config['dbname'] = 'test';
+	define("BASE_URL", "http://localhost/DietasJa/webservice/");
+	$config['dbname'] = 'dietasja';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	define("BASE_URL", "http://localhost/psr/psr-4-mvc/");
-	$config['dbname'] = 'test';
+	define("BASE_URL", "http://localhost/DietasJa/webservice/");
+	$config['dbname'] = 'dietasja';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
